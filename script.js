@@ -17,7 +17,7 @@ const perguntas = [
     {
         questao: "Quantos dígitos são usados no sistema hexadecimal?",
         opcoes: ["Dez dígitos: 0 a 9", "Doze dígitos: 0 a 9, A, B", "Dezesseis dígitos: 0 a 9, A a F", "Vinte dígitos: 0 a 9, A a J"],
-        resposta: 1
+        resposta: 3
     },
     {
         questao: "Qual é o número decimal correspondente ao número binário '1010'?",
