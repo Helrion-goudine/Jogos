@@ -61,7 +61,7 @@ int main() {
     strcpy(perguntas[4].opcoes[1], "5");
     strcpy(perguntas[4].opcoes[2], "8");
     strcpy(perguntas[4].opcoes[3], "10");
-    perguntas[4].resposta = 1;
+    perguntas[4].resposta = 4;
 
     int pontuacao = 0;
 
