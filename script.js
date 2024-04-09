@@ -22,7 +22,7 @@ const perguntas = [
     {
         questao: "Qual é o número decimal correspondente ao número binário '1010'?",
         opcoes: ["2", "5", "8", "10"],
-        resposta: 1
+        resposta: 4
     }
 ];
 
