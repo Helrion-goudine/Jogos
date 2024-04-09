@@ -24,43 +24,43 @@ int main() {
     struct Pergunta perguntas[5]; // Alterado para 5 perguntas
 
     // Pergunta 1
-    strcpy(perguntas[0].questao, "Qual é a capital do Brasil?");
-    strcpy(perguntas[0].opcoes[0], "São Paulo");
-    strcpy(perguntas[0].opcoes[1], "Brasília");
-    strcpy(perguntas[0].opcoes[2], "Rio de Janeiro");
-    strcpy(perguntas[0].opcoes[3], "Salvador");
+    strcpy(perguntas[0].questao, "Quantos dígitos diferentes são usados no sistema binário?");
+    strcpy(perguntas[0].opcoes[0], "Dois dígitos: 0 e 1");
+    strcpy(perguntas[0].opcoes[1], "Quatro dígitos: 0, 1, 2, 3");
+    strcpy(perguntas[0].opcoes[2], "Oito dígitos: 0, 1, 2, 3, 4, 5, 6, 7");
+    strcpy(perguntas[0].opcoes[3], "Dezesseis dígitos: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F");
     perguntas[0].resposta = 2;
 
     // Pergunta 2
-    strcpy(perguntas[1].questao, "Quem escreveu Dom Quixote?");
-    strcpy(perguntas[1].opcoes[0], "Miguel de Cervantes");
-    strcpy(perguntas[1].opcoes[1], "William Shakespeare");
-    strcpy(perguntas[1].opcoes[2], "Jorge Luis Borges");
-    strcpy(perguntas[1].opcoes[3], "Machado de Assis");
+    strcpy(perguntas[1].questao, "Qual é a base do sistema octal?");
+    strcpy(perguntas[1].opcoes[0], "Base 2");
+    strcpy(perguntas[1].opcoes[1], "Base 8");
+    strcpy(perguntas[1].opcoes[2], "Base 10");
+    strcpy(perguntas[1].opcoes[3], "Base 16");
     perguntas[1].resposta = 1;
 
     // Pergunta 3
-    strcpy(perguntas[2].questao, "Qual é o maior planeta do Sistema Solar?");
-    strcpy(perguntas[2].opcoes[0], "Terra");
-    strcpy(perguntas[2].opcoes[1], "Júpiter");
-    strcpy(perguntas[2].opcoes[2], "Saturno");
-    strcpy(perguntas[2].opcoes[3], "Marte");
+    strcpy(perguntas[2].questao, "O sistema decimal é baseado em quantos dígitos?");
+    strcpy(perguntas[2].opcoes[0], "Quatro dígitos");
+    strcpy(perguntas[2].opcoes[1], "Oito dígitos");
+    strcpy(perguntas[2].opcoes[2], "Dez dígitos");
+    strcpy(perguntas[2].opcoes[3], "Dezesseis dígitos");
     perguntas[2].resposta = 2;
 
     // Pergunta 4
-    strcpy(perguntas[3].questao, "Quem pintou a Mona Lisa?");
-    strcpy(perguntas[3].opcoes[0], "Leonardo da Vinci");
-    strcpy(perguntas[3].opcoes[1], "Pablo Picasso");
-    strcpy(perguntas[3].opcoes[2], "Vincent van Gogh");
-    strcpy(perguntas[3].opcoes[3], "Michelangelo");
-    perguntas[3].resposta = 1;
+    strcpy(perguntas[3].questao, "Quantos dígitos são usados no sistema hexadecimal?");
+    strcpy(perguntas[3].opcoes[0], "Dez dígitos: 0 a 9");
+    strcpy(perguntas[3].opcoes[1], "Doze dígitos: 0 a 9, A, B");
+    strcpy(perguntas[3].opcoes[2], "Dezesseis dígitos: 0 a 9, A a F");
+    strcpy(perguntas[3].opcoes[3], "Vinte dígitos: 0 a 9, A a J");
+    perguntas[3].resposta = 3;
 
     // Pergunta 5
-    strcpy(perguntas[4].questao, "Qual é o rio mais longo do mundo?");
-    strcpy(perguntas[4].opcoes[0], "Rio Amazonas");
-    strcpy(perguntas[4].opcoes[1], "Rio Nilo");
-    strcpy(perguntas[4].opcoes[2], "Rio Ganges");
-    strcpy(perguntas[4].opcoes[3], "Rio Mississipi");
+    strcpy(perguntas[4].questao, "Qual é o número decimal correspondente ao número binário '1010'?");
+    strcpy(perguntas[4].opcoes[0], "2");
+    strcpy(perguntas[4].opcoes[1], "5");
+    strcpy(perguntas[4].opcoes[2], "8");
+    strcpy(perguntas[4].opcoes[3], "10");
     perguntas[4].resposta = 1;
 
     int pontuacao = 0;
